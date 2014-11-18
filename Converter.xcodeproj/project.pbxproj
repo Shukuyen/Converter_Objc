@@ -26,6 +26,10 @@
 		26D1744E1A14DB3900021DC0 /* CurrencyRateUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1744D1A14DB3900021DC0 /* CurrencyRateUpdater.m */; };
 		26D174531A14F50300021DC0 /* CurrencyRateUpdaterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D174521A14F50300021DC0 /* CurrencyRateUpdaterTest.m */; };
 		26D174541A14F50700021DC0 /* CurrencyRateUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1744D1A14DB3900021DC0 /* CurrencyRateUpdater.m */; };
+		314DD8631A1B7C67006D2670 /* NumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 314DD8621A1B7C67006D2670 /* NumberPad.m */; };
+		314DD8661A1B7DB4006D2670 /* ConverterControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 314DD8651A1B7DB4006D2670 /* ConverterControllerTest.m */; };
+		314DD8681A1B8635006D2670 /* NumberPadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 314DD8671A1B8635006D2670 /* NumberPadTest.m */; };
+		314DD8691A1B9244006D2670 /* NumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 314DD8621A1B7C67006D2670 /* NumberPad.m */; };
 		4589097A1ACD069896B70613 /* libPods-ConverterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF26E4C8ECD24EC98ED0341C /* libPods-ConverterTests.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +66,10 @@
 		26D174521A14F50300021DC0 /* CurrencyRateUpdaterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyRateUpdaterTest.m; sourceTree = "<group>"; };
 		276106AF19E5D9E100708A18 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		276106B219E5DF2400708A18 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		314DD8611A1B7C67006D2670 /* NumberPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberPad.h; sourceTree = "<group>"; };
+		314DD8621A1B7C67006D2670 /* NumberPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberPad.m; sourceTree = "<group>"; };
+		314DD8651A1B7DB4006D2670 /* ConverterControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterControllerTest.m; sourceTree = "<group>"; };
+		314DD8671A1B8635006D2670 /* NumberPadTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberPadTest.m; sourceTree = "<group>"; };
 		360E4609E99E7EA9B4074EDD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		940D1B5136C17D6CCD22CB80 /* Pods-ConverterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConverterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConverterTests/Pods-ConverterTests.release.xcconfig"; sourceTree = "<group>"; };
 		C7F28C2FA8D94B64CF496339 /* Pods-ConverterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConverterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConverterTests/Pods-ConverterTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +136,8 @@
 				26381AF819CB2AA7005884FF /* AppDelegate.m */,
 				26381AFA19CB2AA7005884FF /* ConverterController.h */,
 				26381AFB19CB2AA7005884FF /* ConverterController.m */,
+				314DD8611A1B7C67006D2670 /* NumberPad.h */,
+				314DD8621A1B7C67006D2670 /* NumberPad.m */,
 				26381AFD19CB2AA7005884FF /* Main.storyboard */,
 				26381B0019CB2AA7005884FF /* Images.xcassets */,
 				26381B0219CB2AA7005884FF /* LaunchScreen.xib */,
@@ -150,6 +160,8 @@
 			children = (
 				26381B0D19CB2AA7005884FF /* Supporting Files */,
 				268528F21A14BBA100BCDACB /* SmokeUnitTest.m */,
+				314DD8651A1B7DB4006D2670 /* ConverterControllerTest.m */,
+				314DD8671A1B8635006D2670 /* NumberPadTest.m */,
 				26D174551A14FA9C00021DC0 /* CurrencyRateUpdater */,
 			);
 			path = ConverterTests;
@@ -376,6 +388,7 @@
 				26381AFC19CB2AA7005884FF /* ConverterController.m in Sources */,
 				26D1744E1A14DB3900021DC0 /* CurrencyRateUpdater.m in Sources */,
 				26381AF919CB2AA7005884FF /* AppDelegate.m in Sources */,
+				314DD8631A1B7C67006D2670 /* NumberPad.m in Sources */,
 				26381AF619CB2AA7005884FF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,8 +397,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314DD8681A1B8635006D2670 /* NumberPadTest.m in Sources */,
 				26D174531A14F50300021DC0 /* CurrencyRateUpdaterTest.m in Sources */,
 				268528F31A14BBA100BCDACB /* SmokeUnitTest.m in Sources */,
+				314DD8661A1B7DB4006D2670 /* ConverterControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +411,7 @@
 				26D174541A14F50700021DC0 /* CurrencyRateUpdater.m in Sources */,
 				26BE264D1A14AB8D00CC364C /* ConverterController.m in Sources */,
 				26BE263D1A14AA6400CC364C /* AppDelegate.m in Sources */,
+				314DD8691A1B9244006D2670 /* NumberPad.m in Sources */,
 				26BE263E1A14AA6400CC364C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

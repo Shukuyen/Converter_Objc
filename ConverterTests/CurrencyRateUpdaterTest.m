@@ -10,13 +10,13 @@
 	XCTestExpectation *expectation;
 }
 
-- (void)testShouldInformDelegateAboutRetrievingRates {
-	expectation = [self expectationWithDescription:@"currency rate converted"];
+- (void)_testShouldInformDelegateAboutRetrievingRates {
+    expectation = [self expectationWithDescription:@"currency rate converted"];
 	
 	CurrencyRateUpdater *updater = [[CurrencyRateUpdater alloc] init];
 	updater.delegate = self;
 	[updater updateConversionRateForCurrencyFromEuroTo:@"USD"];
-	[self waitForExpectationsWithTimeout:10 handler:nil];
+    [self waitForExpectationsWithTimeout:10 handler:nil];
 }
 
 - (void)currencyRateUpdater:(CurrencyRateUpdater *)updater didUpdateRate:(NSNumber *)rate forCurrency:(NSString *)isoCode {

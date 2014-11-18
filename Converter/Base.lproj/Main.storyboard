@@ -23,6 +23,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0123456789.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJc-cT-Jig">
                                         <rect key="frame" x="8" y="37" width="552" height="26"/>
+                                        <accessibility key="accessibilityConfiguration" label="DisplayLabel"/>
                                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="35"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>

@@ -15,4 +15,4 @@ deploy:
 
 spec:
 	frank build --scheme "Converter_UITest"
-	cd Frank; cucumber -f html -o report.html
+	cd Frank; cucumber -f json -o report.json
